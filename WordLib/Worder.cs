@@ -2,7 +2,7 @@
 {
     public class Worder
     {
-        public string Reverse(string input)
+        public bool Palindrome(string input)
         {
 
         }

@@ -1,16 +1,16 @@
 namespace WordLib.Tests
 {
-    public class WordTester
+    public class WorderTests
     {
         [Fact]
         public void IsPalindrom()
         {
             //Arrange
             Worder worder = new Worder();
-            string expected = "stats";
+            bool expected = true;
 
             //Act
-            string actual = worder.Reverse("status");
+            bool actual = worder.Palindrome("stats");
 
             //Assert
             Assert.Equal(expected, actual);
